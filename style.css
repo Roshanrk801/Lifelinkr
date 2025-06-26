@@ -20,6 +20,7 @@ h2 {
     color: #0044c8;
     font-size: 1.5rem;
     margin: 25px 15px;
+    text-transform: capitalize;
 }
 
 h5 {
@@ -139,6 +140,8 @@ hr {
 .right-hero h2 {
     color: #fff;
     margin: 5px;
+    text-transform: capitalize;
+
 }
 
 .form-control {
@@ -153,16 +156,17 @@ hr {
 /* marquee */
 .no-wrap-text {
     white-space: nowrap;
+    text-transform: capitalize;
+
 }
 
 /* Marquee wrapper */
 .marquee-wrapper {
     overflow: hidden;
-    /* position: relative; */
 }
 
 .marquee-content {
-    display:flex;
+    display: flex;
     animation: scroll-left 10s infinite linear;
 }
 
@@ -172,9 +176,8 @@ hr {
 }
 
 .marquee-inner {
-    display:flex;
+    display: flex;
     gap: 25px;
-
 }
 
 .marquee-content img {
@@ -189,10 +192,11 @@ hr {
 @keyframes scroll-left {
     from {
         transform: translateX(0);
-      }
-      to {
+    }
+
+    to {
         transform: translateX(-100%);
-      }
+    }
 }
 
 /* feature card */
